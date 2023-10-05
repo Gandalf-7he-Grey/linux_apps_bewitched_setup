@@ -15,6 +15,7 @@ This Bash script automates the process of setting up and installing various appl
 9. Downloads and installs Sublime Text 3.
 10. Installs Terminator.
 11. Installs LibreOffice.
+12. Installs Flameshot.
 
 The script also logs any errors encountered during execution in a log file.
 

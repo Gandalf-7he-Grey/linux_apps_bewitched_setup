@@ -1,5 +1,6 @@
 #!/bin/bash
-echo -e "\e[91m"linux_setup_wizard_v1"\e[0m"
+#linux_setup_wizard_v2
+echo -e "\e[91m"linux_setup_wizard_v2"\e[0m"
 
 # Create a log file to collect errors
 ERROR_LOG="error_log.txt"
@@ -189,3 +190,13 @@ elif
     sudo apt install terminator -y
 else
     log_error "Can't install terminator"
+
+# Download and install Flameshot
+log_warning "Installing screenshot tool Flameshot..."
+if sudo apt install apt install flameshot -y
+    log_success "Flameshot installed successfully."
+elif
+    sudo apt --fix-broken install -y
+    sudo apt install flameshot -y
+else
+    log_error "Can't install flameshot"

@@ -16,6 +16,7 @@ This Bash script automates the process of setting up and installing various appl
 10. Installs Terminator.
 11. Installs LibreOffice.
 12. Installs Flameshot.
+13. Unpacks rockyou.txt
 
 The script also logs any errors encountered during execution in a log file.
 

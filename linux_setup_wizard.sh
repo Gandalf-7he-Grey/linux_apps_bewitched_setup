@@ -1,6 +1,6 @@
 #!/bin/bash
-#linux_setup_wizard_v2
-echo -e "\e[91m"linux_setup_wizard_v2"\e[0m"
+#linux_setup_wizard_v2.1
+echo -e "\e[91m"linux_setup_wizard_v2.1"\e[0m"
 
 # Create a log file to collect errors
 ERROR_LOG="error_log.txt"
@@ -200,3 +200,9 @@ elif
     sudo apt install flameshot -y
 else
     log_error "Can't install flameshot"
+#Unpacking rockyou.txt
+log_warning "Unpacking rockyou.txt"
+if sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+    log_success "rockyou.txt unpacked successfully"
+else
+    log_error "Can't unpack rockyou.txt"

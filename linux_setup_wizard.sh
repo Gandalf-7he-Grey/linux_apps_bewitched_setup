@@ -1,5 +1,5 @@
 #!/bin/bash
-#linux_setup_wizard_v2.1
+#linux_setup_wizard_v3.1
 echo -e "\e[91m"linux_setup_wizard_v2.1"\e[0m"
 
 # Create a log file to collect errors
@@ -150,3 +150,26 @@ log_success "Flameshot installed successfully."
 #Unpacking rockyou.txt
 log_warning "Unpacking rockyou.txt"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+
+
+# Installing Go
+log_warning "Installing Go"
+sudo apt install golang-go
+
+log_warning "Fixing broken dependencies..."
+sudo apt --fix-broken install -y
+
+log_warning "Installing Go"
+sudo apt install golang-go
+log_success "Go installed!"
+
+#Dowloading and installing assetfinder
+log_warning "Dowloading and installing assetfinder"
+go install github.com/tomnomnom/assetfinder@latest
+
+log_warning "Fixing broken dependencies..."
+sudo apt --fix-broken install -y
+
+log_warning "Dowloading and installing assetfinder"
+go install github.com/tomnomnom/assetfinder@latest
+log_success "assetfinder installed!"

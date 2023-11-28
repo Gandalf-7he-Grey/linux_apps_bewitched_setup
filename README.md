@@ -1,6 +1,6 @@
-# [Linux Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft)
+# [Linux Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft) v3.1
 
-### [Introduction](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#introduction)
+### [Introduction](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#introduction) 
 
 This Bash script automates the process of setting up and installing various applications on a Linux system. It performs the following tasks:
 
@@ -17,6 +17,8 @@ This Bash script automates the process of setting up and installing various appl
 11. Installs LibreOffice.
 12. Installs Flameshot.
 13. Unpacks rockyou.txt
+14. Installing Go
+15. Downloads and installs assetfinder tool.
 
 The script also logs any errors encountered during execution in a log file.
 

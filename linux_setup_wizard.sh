@@ -1,6 +1,6 @@
 #!/bin/bash
-#linux_setup_wizard_v3.1
-echo -e "\e[91m"linux_setup_wizard_v2.1"\e[0m"
+#linux_setup_wizard_v3.2
+echo -e "\e[91m"linux_setup_wizard_v3.2"\e[0m"
 
 # Create a log file to collect errors
 ERROR_LOG="error_log.txt"
@@ -42,7 +42,7 @@ log_success "Updating and upgrading the system done!"
 
 # Download Google Chrome Debian package
 log_warning "Downloading Google Chrome..."
-wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O google-chrome-stable_current_amd64.deb; then
+wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O google-chrome-stable_current_amd64.deb;
 log_success "Google Chrome Debian package downloaded successfully!"
 
 # Install Google Chrome
@@ -154,13 +154,13 @@ sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 
 # Installing Go
 log_warning "Installing Go"
-sudo apt install golang-go
+sudo apt install golang-go -y
 
 log_warning "Fixing broken dependencies..."
 sudo apt --fix-broken install -y
 
 log_warning "Installing Go"
-sudo apt install golang-go
+sudo apt install golang-go -y
 log_success "Go installed!"
 
 #Dowloading and installing assetfinder

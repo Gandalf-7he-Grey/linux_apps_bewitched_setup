@@ -1,4 +1,4 @@
-# [Linux Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft) v3.1
+# [Linux Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft) v3.2
 
 ### [Introduction](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#introduction) 
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-#linux_setup_wizard_v3.2
-echo -e "\e[91m"linux_setup_wizard_v3.2"\e[0m"
+#linux_setup_wizard_v3.3
+echo -e "\e[91m"linux_setup_wizard_v3.3"\e[0m"
 
 # Create a log file to collect errors
 ERROR_LOG="error_log.txt"
@@ -83,7 +83,7 @@ log_success "Brave browser installed successfully."
 
 # Download and extract the Tor Browser
 log_warning "Downloading Tor Browser..."
-wget -q https://www.torproject.org/dist/torbrowser/12.5.3/tor-browser-linux64-12.5.3_ALL.tar.xz -O tor-browser-linux64-12.5.3.tar.xz && tar -xf tor-browser-linux64-12.5.3.tar.xz
+sudo apt install tor torbrowser-launcher -y
 log_success "Tor dowloaded and extracted!"
 
 # Download Discord Debian package

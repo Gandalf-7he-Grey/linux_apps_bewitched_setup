@@ -40,6 +40,8 @@ sudo apt update
 sudo apt upgrade -y
 log_success "Updating and upgrading the system done!"
 
+
+
 # Download Google Chrome Debian package
 log_warning "Downloading Google Chrome..."
 wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O google-chrome-stable_current_amd64.deb;
@@ -64,6 +66,8 @@ rm google-chrome-stable_current_amd64.deb
 #log_warning "Launching Google Chrome..."
 #google-chrome
 
+
+
 # Install Brave browser
 log_warning "Installing Brave Browser..."
 sudo apt install curl
@@ -81,10 +85,13 @@ log_success "Brave browser installed successfully."
 #brave-browser
 
 
+
 # Download and extract the Tor Browser
 log_warning "Downloading Tor Browser..."
 sudo apt install tor torbrowser-launcher -y
 log_success "Tor dowloaded and extracted!"
+
+
 
 # Download Discord Debian package
 log_warning "Downloading Discord..."
@@ -99,10 +106,15 @@ sudo apt --fix-broken install -y
 sudo dpkg --install discord.deb
 log_success "Discord done!"
 
+
+
 # Download and install Telegram Desktop
 log_warning "Downloading Telegram Desktop..."
 wget -q "https://telegram.org/dl/desktop/linux" -O telegram.tar.xz && tar -xf telegram.tar.xz
 log_success "Telegram Desktop downloaded and extracted successfully."
+
+
+
 
 # Download and install Obsidian Markdown editor
 log_warning "Downloading Obsidian Markdown editor..."
@@ -115,6 +127,8 @@ sudo dpkg --install obsidian.deb
 log_warning "Fixing broken dependencies..."
 sudo apt --fix-broken install -y
 
+
+
 # Download and install Sublime Text 3
 log_warning "Downloading Sublime Text 3..."
 wget -q "https://download.sublimetext.com/sublime-text_build-3211_amd64.deb" -O sublime-text.deb
@@ -126,12 +140,16 @@ sudo dpkg --install sublime-text.deb
 log_warning "Fixing broken dependencies..."
 sudo apt --fix-broken install -y
 
+
+
 # Download and install Terminator
 log_warning "Installing Terminator terminal..."
 sudo apt install terminator -y
 log_success "Terminator terminal installed successfully."
 sudo apt --fix-broken install -y
 sudo apt install terminator -y
+
+
 
 # Download and install Flameshot
 log_warning "Installing screenshot tool Flameshot..."
@@ -141,15 +159,12 @@ sudo apt --fix-broken install -y
 sudo apt install apt install flameshot -y
 log_success "Flameshot installed successfully."
 
-# Download and install assetfinder
-# log_warning "Installing subdomain searching tool assetfinder..."
-# go get -u github.com/tomnomnom/assetfinder
-# log_warning "Fixing broken dependencies..."
-# log_success "assetfinder installed successfully."
+
 
 #Unpacking rockyou.txt
 log_warning "Unpacking rockyou.txt"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+
 
 
 # Installing Go
@@ -163,6 +178,8 @@ log_warning "Installing Go"
 sudo apt install golang-go -y
 log_success "Go installed!"
 
+
+
 #Dowloading and installing assetfinder
 log_warning "Dowloading and installing assetfinder"
 go install github.com/tomnomnom/assetfinder@latest
@@ -173,3 +190,16 @@ sudo apt --fix-broken install -y
 log_warning "Dowloading and installing assetfinder"
 go install github.com/tomnomnom/assetfinder@latest
 log_success "assetfinder installed!"
+
+
+
+#Dowloading and installing QBITorrent
+log_warning "Dowloading and installing QBITorrent"
+sudo apt install qbittorrent
+
+log_warning "Fixing broken dependencies..."
+sudo apt --fix-broken install -y
+
+log_warning "Dowloading and installing QBITorrent"
+sudo apt install qbittorrent
+log_success "QBITorrent installed!"

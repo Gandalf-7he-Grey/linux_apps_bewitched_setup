@@ -16,9 +16,11 @@ This Bash script automates the process of setting up and installing various appl
 10. Installs Terminator.
 11. Installs LibreOffice.
 12. Installs Flameshot.
-13. Unpacks rockyou.txt
-14. Installing Go
-15. Downloads and installs assetfinder tool.
+13. Installs QBITTorrent.
+14. Unpacks rockyou.txt
+15. Installing Go
+16. Downloads and installs assetfinder tool.
+17. 
 
 The script also logs any errors encountered during execution in a log file.
 

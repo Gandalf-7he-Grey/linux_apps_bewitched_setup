@@ -1,5 +1,5 @@
 #!/bin/bash
-#linux_setup_wizard_v3.3
+#linux_setup_wizard_v3.5
 echo -e "\e[91m"linux_setup_wizard_v3.4"\e[0m"
 
 # Create a log file to collect errors

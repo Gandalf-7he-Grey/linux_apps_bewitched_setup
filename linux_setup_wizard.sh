@@ -149,6 +149,13 @@ log_success "Terminator terminal installed successfully."
 sudo apt --fix-broken install -y
 sudo apt install terminator -y
 
+# Installing Libreoffice
+sudo apt install libreoffice -y
+log_warning "Fixing broken dependencies..."
+sudo apt --fix-broken install -y
+sudo apt install libreoffice -y
+log_success "Libreoffice installed successfully."
+
 
 
 # Download and install Flameshot

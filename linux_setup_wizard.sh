@@ -1,5 +1,5 @@
 #!/bin/bash
-#linux_setup_wizard_v3.5
+#linux_setup_wizard_v3.5.1
 echo -e "\e[91m"linux_setup_wizard_v3.4"\e[0m"
 
 # Create a log file to collect errors
@@ -160,10 +160,10 @@ log_success "Libreoffice installed successfully."
 
 # Download and install Flameshot
 log_warning "Installing screenshot tool Flameshot..."
-sudo apt install apt install flameshot -y
+sudo apt install flameshot -y
 log_warning "Fixing broken dependencies..."
 sudo apt --fix-broken install -y
-sudo apt install apt install flameshot -y
+sudo apt install flameshot -y
 log_success "Flameshot installed successfully."
 
 

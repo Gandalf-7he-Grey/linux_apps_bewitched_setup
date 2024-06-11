@@ -1,5 +1,5 @@
 #!/bin/bash
-#linux_setup_wizard_v3.5.1
+#linux_setup_wizard_v3.5.2
 echo -e "\e[91m"linux_setup_wizard_v3.4"\e[0m"
 
 # Create a log file to collect errors
@@ -95,7 +95,7 @@ log_success "Tor dowloaded and extracted!"
 
 # Download Discord Debian package
 log_warning "Downloading Discord..."
-wget -q "https://discord.com/api/download?platform=linux&format=deb" -O discord.deb
+wget -q "https://discord.com/api/download/stable?platform=linux&format=deb" -O discord.deb
 
 # Install Discord
 log_warning "Installing Discord..."

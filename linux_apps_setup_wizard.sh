@@ -1,6 +1,6 @@
 #!/bin/bash
-#linux_setup_wizard_v3.5.2
-echo -e "\e[91m"linux_setup_wizard_v3.4"\e[0m"
+#linux_apps_setup_wizard_v3.5.2
+echo -e "\e[91m"linux_apps_setup_wizard_v3.4"\e[0m"
 
 # Create a log file to collect errors
 ERROR_LOG="error_log.txt"

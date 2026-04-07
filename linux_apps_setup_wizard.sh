@@ -1,6 +1,6 @@
 #!/bin/bash
-#linux_apps_setup_wizard_v3.5.2
-echo -e "\e[91m"linux_apps_setup_wizard_v3.4"\e[0m"
+#linux_apps_setup_wizard_v3.6.2
+echo -e "\e[91m"linux_apps_setup_wizard_v3.6.2"\e[0m"
 
 # Create a log file to collect errors
 ERROR_LOG="error_log.txt"
@@ -171,6 +171,11 @@ log_success "Flameshot installed successfully."
 #Unpacking rockyou.txt
 log_warning "Unpacking rockyou.txt"
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz
+
+
+
+#Installing Seclists
+sudo apt -y install seclists
 
 
 

@@ -1,4 +1,4 @@
-# [Linux Apps Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft) v3.5.2
+# [Linux Apps Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft) v3.6.2
 
 ### [Introduction](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#introduction) 
 
@@ -18,8 +18,9 @@ This Bash script automates the process of setting up and installing various appl
 12. Installs Flameshot.
 13. Installs QBITTorrent.
 14. Unpacks rockyou.txt
-15. Installing Go
-16. Downloads and installs assetfinder tool.
+15. Installing Seclists
+16. Installing Go
+17. Downloads and installs assetfinder tool.
 
 The script also logs any errors encountered during execution in a log file.
 

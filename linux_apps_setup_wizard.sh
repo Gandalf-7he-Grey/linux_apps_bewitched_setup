@@ -205,6 +205,7 @@ log_success "assetfinder installed!"
 
 
 
+
 #Dowloading and installing QBITorrent
 log_warning "Dowloading and installing QBITorrent"
 sudo apt install qbittorrent
@@ -215,3 +216,30 @@ sudo apt --fix-broken install -y
 log_warning "Dowloading and installing QBITorrent"
 sudo apt install qbittorrent
 log_success "QBITorrent installed!"
+
+
+
+
+# Download and install Yandex Browser
+log_warning "Downloading Yandex Browser..."
+
+wget -q https://browser.yandex.com/download?os=linux\&package=deb -O yandex-browser.deb
+
+log_success "Yandex Browser package downloaded successfully!"
+
+# Install Yandex Browser
+log_warning "Installing Yandex Browser..."
+
+sudo dpkg -i yandex-browser.deb
+
+log_warning "Fixing broken dependencies..."
+sudo apt --fix-broken install -y
+
+# Reinstall after fixing dependencies
+sudo dpkg -i yandex-browser.deb
+
+log_success "Yandex Browser installed successfully!"
+
+# Delete downloaded package
+log_warning "Deleting downloaded Yandex Browser package..."
+rm yandex-browser.deb

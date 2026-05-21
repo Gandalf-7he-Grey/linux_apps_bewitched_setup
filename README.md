@@ -1,4 +1,4 @@
-# [Linux Apps Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft) v3.6.2
+# [Linux Apps Setup Witchcraft](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#linux-setup-witchcraft) v3.7.0
 
 ### [Introduction](https://github.com/Gandalf-7he-Grey/linux_setup_scripts/blob/main/README.md#introduction) 
 
@@ -7,21 +7,23 @@ This Bash script automates the process of setting up and installing various appl
 1. Updates and upgrades the system.
 2. Fixes any broken dependencies.
 3. Downloads and installs Google Chrome.
-4. Installs Brave browser.
+4. Downloads and installs Brave browser.
 5. Downloads and extracts the Tor Browser.
-6. Downloads and installs Discord.
-7. Downloads and installs Telegram Desktop.
-8. Downloads and installs Obsidian Markdown editor.
-9. Downloads and installs Sublime Text 3.
-10. Installs Terminator.
-11. Installs LibreOffice.
-12. Installs Flameshot.
-13. Installs QBITTorrent.
-14. Unpacks rockyou.txt
-15. Installing Seclists
-16. Installing Go
-17. Downloads and installs assetfinder tool.
-
+6.Downloads and installs Yandex browser.
+7. Downloads and installs Discord.
+8. Downloads and installs Telegram Desktop.
+9. Downloads and installs Obsidian Markdown editor.
+10. Downloads and installs Sublime Text 3.
+11. Installs Terminator.
+12. Installs LibreOffice.
+13. Installs Flameshot.
+14. Installs QBITTorrent.
+15. Unpacks rockyou.txt
+16. Installing Seclists
+17. Installing Go
+18. Downloads and installs assetfinder tool.
+19. Downloads and installs yandex browser.
+    
 The script also logs any errors encountered during execution in a log file.
 
 ---

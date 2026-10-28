@@ -60,14 +60,6 @@ Options (optional):
 
 ---
 
-### [Animation](https://github.com/Gandalf-7he-Grey/linux_apps_bewitched_setup/blob/root/README.md#animation)
-
-- The picture is colored pixel art and needs a terminal with UTF-8 and 256 colors (most terminals have them).
-- It fits the size of your terminal: from a 4K screen down to 83 columns x 20 lines the output is on the left and the picture on the right. Smaller terminals and phones get the picture on top and the output below it.
-- The layout is chosen when the script starts. You can resize the window while it runs.
-- Everything the commands print is also saved in `setup_output.log`.
-- `Ctrl+C` stops the script and puts your terminal back to normal.
-
 ---
 
 ### [Error Handling](https://github.com/Gandalf-7he-Grey/linux_apps_bewitched_setup/blob/root/README.md#error-handling)

@@ -60,7 +60,6 @@ Options (optional):
 
 ---
 
----
 
 ### [Error Handling](https://github.com/Gandalf-7he-Grey/linux_apps_bewitched_setup/blob/root/README.md#error-handling)
 
